@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wasihun Abera | Information Systems Student</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+    </div>
+    <div class="header-content">
+      <div class="profile-container">
+        <div class="profile-glow"></div>
+        <img src="https://i.ibb.co/B2XZP9h8/unnamed.png" alt="Wasihun Abera" class="profile-img">
+      </div>
+      <h1 data-translate="name">Wasihun Abera</h1>
+      <p data-translate="title">Information Systems Student & Content Creator</p>
+      <div class="header-buttons">
+        <a href="#projects" class="btn" data-translate="viewWork">View My Work</a>
+        <a href="#contact" class="btn btn-outline" data-translate="getInTouch">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">Wasihun<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about" data-translate="about">About</a></li>
+        <li><a href="#skills" data-translate="skills">Skills</a></li>
+        <li><a href="#projects" data-translate="projects">Projects</a></li>
+        <li><a href="#experience" data-translate="experience">Experience</a></li>
+        <li><a href="#philosophy" data-translate="philosophy">Philosophy</a></li>
+        <li><a href="#contact" data-translate="contact">Contact</a></li>
+      </ul>
+      <div class="language-selector">
+        <button class="language-btn">
+          <i class="fas fa-globe"></i>
+          <span id="current-language">English</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="language-dropdown">
+          <div class="language-option active" data-lang="en">
+            <img src="https://flagcdn.com/w40/gb.png" class="language-flag" alt="English">
+            <span>English</span>
+          </div>
+          <div class="language-option" data-lang="am">
+            <img src="https://flagcdn.com/w40/et.png" class="language-flag" alt="Amharic">
+            <span>አማርኛ</span>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="about">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3 data-translate="aboutTitle">Building Digital Solutions for Real-World Problems</h3>
+          <p data-translate="aboutText1">I am <span class="highlight">Wasihun Abera</span>, a third-year undergraduate in Information Systems at the <strong>University of Gondar</strong>. With strong skills in <strong>HTML, CSS, JavaScript</strong>, and <strong>Google Apps Script</strong>, I design and deploy web-based registration and management systems that solve real-world problems for schools, churches, and communities.</p>
+          <p data-translate="aboutText2">My work emphasizes clarity, usability, and impact, ensuring that technology is both accessible and practical. Beyond academic projects, I am developing <span class="highlight">BrightTap</span> — a smart learning access platform that empowers underserved communities through digital inclusion and low-bandwidth optimization.</p>
+          <p data-translate="aboutText3">My long-term goal is to scale BrightTap into a widely used platform bridging the gap between education and technology. I am resourceful, impact-driven, and collaborative — always learning by doing and striving to make technology a tool for positive change.</p>
+          <a href="#contact" class="btn" data-translate="connect">Let's Connect</a>
+        </div>
+        <div class="about-image">
+          <img src="https://i.ibb.co/4nGNGLV9/unnamed.png" alt="Developer working at a desk on a laptop, focusing on coding and project tasks; indoor workspace with computer and desk accessories, calm focused and determined tone">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="skills">My Skills</h2>
+      
+      <!-- Skills Navigation -->
+      <div class="skills-nav">
+        <button class="skills-nav-btn active" data-target="skills-content" data-translate="technicalSkills">Technical Skills</button>
+        <button class="skills-nav-btn" data-target="certificates-content" data-translate="awardsCertificates">Awards & Certificates</button>
+      </div>
+      
+      <!-- Skills Content -->
+      <div id="skills-content" class="skills-content">
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> <span data-translate="technicalSkills">Technical Skills</span></h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML/CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Google Apps Script</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> <span data-translate="toolsTechnologies">Tools & Technologies</span></h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Git & GitHub</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Figma</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>VS Code</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>MySQL</span>
+                <span>60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="60"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3><i class="fas fa-users"></i> <span data-translate="softSkills">Soft Skills</span></h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span data-translate="problemSolving">Problem Solving</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span data-translate="communication">Communication</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span data-translate="teamCollaboration">Team Collaboration</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span data-translate="adaptability">Adaptability</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Certificates Content -->
+      <div id="certificates-content" class="certificates-container">
+        <a class="back-to-skills" id="back-to-skills">
+          <i class="fas fa-arrow-left"></i> <span data-translate="backToSkills">Back to Skills</span>
+        </a>
+        <h2 class="section-title" data-translate="awardsCertificates">Awards & Certificates</h2>
+        
+        <!-- Method 1: Simple Image Upload -->
+        <div class="image-upload-section">
+          <h3 data-translate="uploadImages">Upload and Display Images</h3>
+          <div class="upload-container">
+            <input type="file" id="imageUpload" accept="image/*" multiple>
+            <label for="imageUpload" class="upload-btn">
+              <i class="fas fa-cloud-upload-alt"></i> <span data-translate="chooseImages">Choose Images</span>
+            </label>
+          </div>
+          <div id="imagePreview" class="image-preview"></div>
+        </div>
+        
+        <!-- Method 2: Certificate Upload with Drag & Drop -->
+        <div class="certificate-upload">
+          <h3 data-translate="uploadCertificates">Upload New Certificates</h3>
+          <div class="upload-area" id="dropArea">
+            <i class="fas fa-cloud-upload-alt upload-icon"></i>
+            <p data-translate="dragDrop">Drag & drop your certificate images here</p>
+            <p class="upload-hint" data-translate="orClick">or click to browse</p>
+            <input type="file" id="certificateUpload" accept="image/*" multiple>
+          </div>
+          
+          <div class="uploaded-certificates" id="uploadedCertificates">
+            <!-- Uploaded certificates will appear here -->
+          </div>
+        </div>
+        
+        <!-- Existing Certificates Grid -->
+        <div class="certificates-grid">
+          <!-- English Level Test Certificate -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <div class="certificate-placeholder">
+                <i class="fas fa-award certificate-icon"></i>
+                <h4 data-translate="englishTest">English Level Test</h4>
+                <p data-translate="englishScore">Score: 96% | Level: C2</p>
+              </div>
+            </div>
+            <div class="certificate-content">
+              <h3 data-translate="englishTest">English Level Test</h3>
+              <p data-translate="englishTestOrg">Independent test center "English Tests Online"</p>
+              <div class="certificate-date" data-translate="englishDate">Completed: January 2023</div>
+              <a href="https://www.english-test-online.com/Certificate/202301/OQDNGJ8j.pdf" target="_blank" class="certificate-link">
+                <span data-translate="viewCertificate">View Certificate</span> <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- MERS Course Certificate -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <div class="certificate-placeholder">
+                <i class="fas fa-shield-virus certificate-icon"></i>
+                <h4 data-translate="mersCourse">MERS Course</h4>
+                <p data-translate="mersDescription">Detection, Prevention, Response</p>
+              </div>
+            </div>
+            <div class="certificate-content">
+              <h3 data-translate="mersTitle">MERS: Detection, Prevention, Response</h3>
+              <p data-translate="who">World Health Organization</p>
+              <div class="certificate-date" data-translate="mersDate">Completed: February 8, 2023</div>
+              <a href="https://openwho.org/verify/xobis-fosac-pysam-gozav-vizer" target="_blank" class="certificate-link">
+                <span data-translate="verifyCertificate">Verify Certificate</span> <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="projects">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="University Portal System">
+          </div>
+          <div class="project-content">
+            <h3 data-translate="universityPortal">University Portal System</h3>
+            <p data-translate="universityPortalDesc">A comprehensive web portal for students to access course materials, grades, and university announcements with real-time updates.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> <span data-translate="liveDemo">Live Demo</span></a>
+              <a href="#"><i class="fab fa-github"></i> <span data-translate="sourceCode">Source Code</span></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="BrightTap Learning Platform">
+          </div>
+          <div class="project-content">
+            <h3 data-translate="brightTap">BrightTap Learning Platform</h3>
+            <p data-translate="brightTapDesc">A smart learning access platform that empowers underserved communities through digital inclusion and low-bandwidth optimization.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+              <span class="project-tag">PWA</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fas fa-external-link-alt"></i> <span data-translate="inProgress">In Progress</span></a>
+              <a href="#"><i class="fab fa-github"></i> <span data-translate="sourceCode">Source Code</span></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="Community Registration System">
+          </div>
+          <div class="project-content">
+            <h3 data-translate="registrationSystem">Students Registration System</h3>
+            <p data-translate="registrationSystemDesc">A web-based registration system for university of gondar mahbere kidusan gbi gubae with automated data processing and reporting capabilities.</p>
+            <div class="project-tags">
+              <span class="project-tag">Google Apps Script</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">Sheets API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://sites.google.com/view/uoggbigubae/home" target="_blank"><i class="fas fa-external-link-alt"></i> <span data-translate="liveDemo">Live Demo</span></a>
+              <a href="#"><i class="fab fa-github"></i> <span data-translate="sourceCode">Source Code</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="myJourney">My Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3 data-translate="infoStudent">Information Systems Student</h3>
+            <div class="timeline-date">2024 - Present</div>
+            <p data-translate="infoStudentDesc">Currently pursuing my Bachelor's degree in Information Systems at University of Gondar, focusing on system analysis, database management, and web development.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3 data-translate="freelanceDev">Freelance Web Developer</h3>
+            <div class="timeline-date">2024 - Present</div>
+            <p data-translate="freelanceDevDesc">Developed websites and web applications for local businesses, focusing on responsive design and user experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section id="philosophy" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="philosophy">My Philosophy</h2>
+      <div class="philosophy-content">
+        <p data-translate="philosophyText1">I believe technology should be a bridge, not a barrier. My philosophy is rooted in <strong>clarity</strong>, <strong>accessibility</strong>, and <strong>impact</strong> — creating digital solutions that empower people rather than overwhelm them. Every project I build, whether a registration system or a learning platform, is guided by the principle that <span class="highlight">simplicity drives usability</span>, and usability drives change.</p>
+        <p data-translate="philosophyText2">Coding, for me, is not just a technical skill — it's a tool for <strong>community transformation</strong>. By focusing on low-bandwidth optimization and inclusive design, I aim to ensure that underserved communities have equal access to technological opportunities.</p>
+        <p data-translate="philosophyText3">Collaboration, resourcefulness, and continuous learning are at the heart of my work because meaningful progress happens when knowledge is shared and solutions are built together.</p>
+      </div>
+      
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3 data-translate="purposeDriven">Purpose-Driven</h3>
+          <p data-translate="purposeDrivenDesc">Every line of code serves a purpose - to solve real problems and create meaningful impact.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 data-translate="userCentric">User-Centric</h3>
+          <p data-translate="userCentricDesc">Designing with empathy to create intuitive experiences that put users first.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 data-translate="innovation">Innovation</h3>
+          <p data-translate="innovationDesc">Pushing boundaries to develop creative solutions for complex challenges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-animate>
+    <div class="container">
+      <h2 class="section-title" data-translate="getInTouch">Get In Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-translate="email">Email</h4>
+              <a href="mailto:wasihuna29@gmail.com">wasihuna29@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-translate="phone">Phone</h4>
+              <a href="tel:+251964377965">+251 964 377 965</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-translate="location">Location</h4>
+              <p data-translate="gondar">University of Gondar, Ethiopia</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/WASE-PO/WASIHUN-ABERA-BUTA" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wasihun-abera-91268037b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://t.me/wasepo" target="_blank"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" data-translate="fullName">Full Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email" data-translate="emailAddress">Email Address</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject" data-translate="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message" data-translate="message">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn" data-translate="sendMessage">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Wasihun<span>.</span></div>
+        <div class="footer-links">
+          <a href="#about" data-translate="about">About</a>
+          <a href="#skills" data-translate="skills">Skills</a>
+          <a href="#projects" data-translate="projects">Projects</a>
+          <a href="#experience" data-translate="experience">Experience</a>
+          <a href="#philosophy" data-translate="philosophy">Philosophy</a>
+          <a href="#contact" data-translate="contact">Contact</a>
+        </div>
+        <div class="copyright">
+          © 2025 Wasihun Abera | <span data-translate="builtWith">Built with passion and purpose</span> 🌍
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
